@@ -486,7 +486,7 @@ img {
 
 .glry-descr {
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
 }
@@ -542,6 +542,10 @@ img {
   background-color: #ffffff1a;
 }
 
+.footer-contacts-styles {
+  color: var(--alt-text-color);
+}
+
 .footer-social-icons-link:hover,
 .footer-social-icons-link:focus {
   background-color: var(--accent-color);
@@ -590,14 +594,15 @@ img {
   width: 170px;
 }
 
-.client-link:hover .client-icons-link-svg,
-.client-link:focus .client-icons-link-svg {
-  fill: var(--accent-color);
+.client-icons-link:hover,
+.client-icons-link:focus {
+  border-color: var(--accent-color);
+  fill: var(--title-alt-color);
 }
 
-.client-icons .client-icons-link:hover,
-.client-icons .client-icons-link:focus {
-  border-color: var(--accent-color);
+.client-icons-link:hover .client-icons-link-svg,
+.client-icons-link:focus .client-icons-link-svg {
+  fill: var(--accent-color);
 }
 
 .client-link:not(:last-child) {
